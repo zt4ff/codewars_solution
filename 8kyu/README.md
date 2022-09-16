@@ -31,3 +31,25 @@ public class AbbreviateTwoWords {
 ```
 
 </details>
+<details>
+<summary>2. Reversed Strings</summary>
+
+Complete the solution so that it reverses the string passed into it.
+
+```python
+def solution(s):
+    res = ""
+    for c in s:
+        res = c + res
+    return res
+}
+```
+
+```js
+// javascript
+function solution(str) {
+  return str.split("").reverse().join("");
+}
+```
+
+</details>
