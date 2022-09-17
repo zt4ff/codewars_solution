@@ -53,3 +53,17 @@ function solution(str) {
 ```
 
 </details>
+
+<details>
+<summary>3. Remove duplicates from list</summary>
+
+Complete the solution so that it reverses the string passed into it.
+
+```js
+// javascript
+function distinct(a) {
+  return Array.from(new Set(a));
+}
+```
+
+</details>
